@@ -35,6 +35,18 @@ body {
   border-radius: 10px;
 }
 
+@media screen and (min-width: 700px) {
+  .banner {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .banner {
+    width: 500px;
+  }
+}
+
 .banner h1 {
   margin: 0;
 }
@@ -75,6 +87,18 @@ body {
   min-height: 5rem;
   display: grid;
   place-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  .modal-container {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .modal-container {
+    width: 350px;
+  }
 }
 
 .open-modal {
